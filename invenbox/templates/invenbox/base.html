@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+{% load static %}
+    <head>
+        <title>Inventory</title>
+        <link rel="stylesheet" href="{% static 'invenbox/css/bootstrap.min.css' %}">
+        <link rel="stylesheet" href="{% static 'invenbox/css/mdb.min.css' %}">
+        <link rel="stylesheet" href="{% static 'invenbox/css/mdb.css' %}">
+        <link rel="stylesheet" href="{% static 'invenbox/css/custom.css' %}">
+        <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    </head>
+    <body class="text-center">
+        {% block content %}
+        {% endblock %}
+    </body>
+</html>
